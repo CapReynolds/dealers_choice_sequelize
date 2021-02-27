@@ -1,0 +1,110 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(205, 203, 203);
+}
+p {
+  padding:20px;
+}
+#game-itemB > img {
+  height: 273px;
+  width: 266px;
+}
+a:link{
+  color:rgb(191, 43, 43);
+}
+a:visited {
+  color:rgb(94, 89, 89);
+}
+a:hover{
+  color:rgb(240, 163, 145)
+}
+#box{
+  display: flex;
+  background-color: white;
+}
+red{
+  color:rgb(162, 17, 17);
+}
+content{
+  display: flex;
+  align-items:flex-end;
+}
+h1 {
+  margin: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+#game-itemB {
+  padding:2px;
+  display:flex;
+  background-color: #ffffff;
+  border: 2px solid #7e77774f;
+  height: 30%;
+}
+#game-item {
+  padding:2px;
+  display:flex;
+  border: 2px solid #7e77774f;
+  height: 30%;
+}
+#game-item2{
+  background: url("/assets/SegaDreamcast2.jpg");
+  background-size: cover;
+}
+#games-list {
+  display:flex;
+  flex-direction: column;
+  align-content:center;
+  padding:5px;
+  background-color: rgb(255, 255, 255);
+}
+
+#rank{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  border-radius: 15px;
+  color:rgb(162, 17, 17);
+}
+
+#title {
+  margin-top:2px;
+  font-weight:bold;
+  font-size: 20px;
+}
+.game-info {
+  width: 100%;
+}
+#details {
+  font-variant:small-caps;
+}
+#details2 {
+  font-variant:small-caps;
+  padding-left:20px;
+}
+.game-info > div{
+    padding: 5px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#arrow {
+  margin:5px;
+}
+  
+@media(max-width:718px){
+  #game-itemB{
+    display:flex;
+    flex-direction:column;
+    height:600px;
+  }
+
+}
